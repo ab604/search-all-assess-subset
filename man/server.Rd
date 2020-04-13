@@ -6,7 +6,20 @@
 \usage{
 server(input, output, session)
 }
+\arguments{
+\item{input}{input}
+
+\item{output}{output}
+
+\item{session}{session}
+}
+\value{
+
+}
 \description{
 server
+}
+\author{
+
 }
 \keyword{internal}

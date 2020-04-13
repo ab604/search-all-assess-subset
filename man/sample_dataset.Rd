@@ -4,10 +4,20 @@
 \alias{sample_dataset}
 \title{Sample scores for a random dataset}
 \usage{
-sample_dataset(H1_n = 160, H0_n = 40, decoy_n = H0_n,
-  decoy_large_n = 2000, H0_mean = 2.75, H1_mean = 3.31, H0_sd = 0.13,
-  H1_sd = 0.28, decoy_mean = H0_mean, decoy_sd = H0_sd,
-  decoy_large_mean = H0_mean, decoy_large_sd = H0_sd)
+sample_dataset(
+  H1_n = 160,
+  H0_n = 40,
+  decoy_n = H0_n,
+  decoy_large_n = 2000,
+  H0_mean = 2.75,
+  H1_mean = 3.31,
+  H0_sd = 0.13,
+  H1_sd = 0.28,
+  decoy_mean = H0_mean,
+  decoy_sd = H0_sd,
+  decoy_large_mean = H0_mean,
+  decoy_large_sd = H0_sd
+)
 }
 \arguments{
 \item{H1_n}{number of correct subset target PSMs.}

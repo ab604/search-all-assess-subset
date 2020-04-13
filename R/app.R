@@ -1,6 +1,6 @@
-##' .. content for \description{} (no empty lines) ..
+##' .. content ..
 ##'
-##' .. content for \details{} ..
+##' .. content ..
 ##' @param rawinput the raw input
 ##' @param sep the separator
 ##' @return 

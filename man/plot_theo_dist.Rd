@@ -4,11 +4,41 @@
 \alias{plot_theo_dist}
 \title{plots the theoretical distribution of all components in the PSM distribution.}
 \usage{
-plot_theo_dist(H0_mean = 2.75, H1_mean = 3.31, H0_sd = 0.13,
-  H1_sd = 0.28, decoy_mean = H0_mean, decoy_sd = H0_sd,
-  decoy_extra_mean = H0_mean, decoy_extra_sd = H0_sd)
+plot_theo_dist(
+  H0_mean = 2.75,
+  H1_mean = 3.31,
+  H0_sd = 0.13,
+  H1_sd = 0.28,
+  decoy_mean = H0_mean,
+  decoy_sd = H0_sd,
+  decoy_extra_mean = H0_mean,
+  decoy_extra_sd = H0_sd
+)
+}
+\arguments{
+\item{H0_mean}{HO_mean}
+
+\item{H1_mean}{H1_mean}
+
+\item{H0_sd}{H0_Sd}
+
+\item{H1_sd}{H1_sd}
+
+\item{decoy_mean}{decoy_mean}
+
+\item{decoy_sd}{decoy_sd}
+
+\item{decoy_large_mean}{decoy_large_mean}
+
+\item{decoy_large_sd}{decoy_large_sd}
+}
+\value{
+
 }
 \description{
 plots the theoretical distribution of all components in the PSM distribution.
+}
+\examples{
+1
 }
 \keyword{internal}

@@ -4,9 +4,15 @@
 \alias{PPplot}
 \title{Creates PP plot of two empirical distributions.}
 \usage{
-PPplot(score, label, pi0 = 0, score_higher = TRUE,
-  title = "PP plot of target PSMs", xlab = "Decoy percentile",
-  ylab = "Target\\npercentile")
+PPplot(
+  score,
+  label,
+  pi0 = 0,
+  score_higher = TRUE,
+  title = "PP plot of target PSMs",
+  xlab = "Decoy percentile",
+  ylab = "Target\\npercentile"
+)
 }
 \arguments{
 \item{score}{vector of quantiles of distribution 1 and 2}

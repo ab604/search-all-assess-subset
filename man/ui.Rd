@@ -6,7 +6,13 @@
 \usage{
 ui()
 }
+\value{
+
+}
 \description{
 UI shiny app
+}
+\author{
+
 }
 \keyword{internal}

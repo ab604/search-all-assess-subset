@@ -2,11 +2,22 @@
 % Please edit documentation in R/app.R
 \name{check_input}
 \alias{check_input}
-\title{.. content for \description{} (no empty lines) ..}
+\title{.. content ..}
 \usage{
 check_input(rawinput, sep = ",")
 }
+\arguments{
+\item{rawinput}{the raw input}
+
+\item{sep}{the separator}
+}
+\value{
+
+}
 \description{
-.. content for \details{} ..
+.. content ..
+}
+\author{
+
 }
 \keyword{internal}
