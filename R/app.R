@@ -1,9 +1,9 @@
 ##' .. content for \description{} (no empty lines) ..
 ##'
 ##' .. content for \details{} ..
-##' @param rawinput
-##' @param sep
-##' @return
+##' @param rawinput the raw input
+##' @param sep the separator
+##' @return 
 ##' @keywords internal
 ##' @author
 check_input = function(rawinput,sep = ','){
@@ -23,19 +23,19 @@ check_input = function(rawinput,sep = ','){
 
 #' plots the theoretical distribution of all components in the PSM distribution.
 #'
-#' @param H0_mean
-#' @param H1_mean
-#' @param H0_sd
-#' @param H1_sd
-#' @param decoy_mean
-#' @param decoy_sd
-#' @param decoy_large_mean
-#' @param decoy_large_sd
+#' @param H0_mean HO_mean
+#' @param H1_mean H1_mean
+#' @param H0_sd H0_Sd
+#' @param H1_sd H1_sd
+#' @param decoy_mean decoy_mean
+#' @param decoy_sd decoy_sd
+#' @param decoy_large_mean decoy_large_mean
+#' @param decoy_large_sd decoy_large_sd
 #' @return
 ##' @keywords internal
 #' @import dplyr
 #' @import ggplot2
-#' @examples
+#' @examples 1
 plot_theo_dist = function(H0_mean=2.75, H1_mean=3.31,H0_sd=.13,H1_sd=.28,
                           decoy_mean = H0_mean, decoy_sd = H0_sd,
                           decoy_extra_mean = H0_mean, decoy_extra_sd = H0_sd){
@@ -72,9 +72,9 @@ plot_theo_dist = function(H0_mean=2.75, H1_mean=3.31,H0_sd=.13,H1_sd=.28,
 
 ##' server
 ##'
-##' @param input
-##' @param output
-##' @param session
+##' @param input input
+##' @param output output
+##' @param session session
 ##' @return
 ##' @author
 ##' @keywords internal
@@ -469,6 +469,6 @@ mainPanel(width = 12,
 #' @export
 #' @import shiny
 #' @import markdown
-#' @examples
+#' @examples 1
 saas_gui = function(options = list(port = 3320, host  = "0.0.0.0"))
   shinyApp(ui = ui(), server = server,options = options)
